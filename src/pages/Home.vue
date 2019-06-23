@@ -8,7 +8,8 @@
         <a target="_blank" href="https://github.com/jorgvm/opinionated-navigation"
           >respository on Github</a
         >
-        Demo<br />
+        <br />
+        Demo
         <a target="_blank" href="https://coppercup-opinionated-navigation.netlify.com/"
           >on Netlify</a
         >
