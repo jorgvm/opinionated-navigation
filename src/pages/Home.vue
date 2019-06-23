@@ -1,7 +1,13 @@
 <template>
   <div>
     <div class="main">
-      <h1>Et cupiditate commodi earum.</h1>
+      <h1>Lorem ipsum</h1>
+
+      <p>
+        Git
+        <a href="https://github.com/jorgvm/opinionated-navigation">respository on Github</a> Demo
+        <a href="https://coppercup-opinionated-navigation.netlify.com/">on Netlify</a>
+      </p>
 
       <p>
         Quia, maiores esse. Voluptatum lorem all them ipsums, iusto facere nesciunt consequatur,
