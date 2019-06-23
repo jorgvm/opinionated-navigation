@@ -5,8 +5,13 @@
 
       <p>
         Git
-        <a href="https://github.com/jorgvm/opinionated-navigation">respository on Github</a> Demo
-        <a href="https://coppercup-opinionated-navigation.netlify.com/">on Netlify</a>
+        <a target="_blank" href="https://github.com/jorgvm/opinionated-navigation"
+          >respository on Github</a
+        >
+        Demo<br />
+        <a target="_blank" href="https://coppercup-opinionated-navigation.netlify.com/"
+          >on Netlify</a
+        >
       </p>
 
       <p>
