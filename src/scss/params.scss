@@ -1,0 +1,61 @@
+$container-base: 600px;
+
+$bgr-primary: url('./../assets/trianglify.svg') no-repeat 0 0;
+$cubic-bezier: cubic-bezier(0.68, -0.56, 0.266, 1.56);
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: rotate(-1deg);
+  }
+
+  20%,
+  80% {
+    transform: rotate(2deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: rotate(-3deg);
+  }
+
+  40%,
+  60% {
+    transform: rotate(3deg);
+  }
+}
+
+@mixin stretchline($reversed: null, $color: white) {
+  position: relative;
+  text-decoration: none;
+
+  &::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    backface-visibility: hidden;
+    transform: translateX(-50%);
+    transition: 0.3s all $cubic-bezier;
+    background: $color;
+    background: linear-gradient(to right, transparent 50%, $color 50%);
+    background-size: 2px 1px;
+  }
+
+  &:hover::after {
+    width: 0%;
+  }
+
+  @if ($reversed) {
+    &::after {
+      width: 0%;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
